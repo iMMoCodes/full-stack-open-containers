@@ -1,0 +1,4 @@
+1.apt-get install curl
+2.curl -sL https://deb.nodesource.com/setup_16.x | bash
+3.apt install -y nodejs
+4.node /usr/src/app/index.js
