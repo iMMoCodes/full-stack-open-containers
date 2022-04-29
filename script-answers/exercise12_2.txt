@@ -1,0 +1,6 @@
+1.docker run -it ubuntu bash
+2.cd usr/src
+3.mkdir app
+4.cd app
+5.touch index.js
+6.exit
