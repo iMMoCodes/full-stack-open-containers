@@ -1,0 +1,10 @@
+1.docker exec -it todo-backend-mongo-1 bash
+2.mongo -u root -p example
+3.show dbs
+4.use the_database
+5.show collections
+6.db.todos.find({})
+7.db.todos.insertOne({text: "Insert the number of tools in my toolbelt", done: false})
+8.db.todos.find({})
+9.exit
+10.docker commit todo-backend-mongo-1 todo-backend-mongo-1.1
